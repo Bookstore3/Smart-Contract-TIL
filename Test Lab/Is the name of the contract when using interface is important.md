@@ -45,6 +45,6 @@ contract ERC20NameTestContract{
 Then I have deployed my own test token contract, TestToken.sol
 
 ### Test Result: Successful
-##### Conclusion: The name of the interface contract does not matter, it only matters when making an instance. Only thing that matters when using other contract's function using the interface is the interface function name and structure.
+##### Conclusion: The name of the interface contract does not matter, it only matters when making an instance. Only thing that matters when using other contract's function using the interface is the interface function's name and structure.
 
 
