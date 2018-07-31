@@ -4,7 +4,7 @@ I've always wondered if I should match the interface contract's name exactly sam
 
 For example, if I want to call balanceOf function from other contract that uses ERC20 token interface, do I need to match the interface name with it?
 
-Testing
+### Testing
 
 ~~~Solidity
 pragma solidity ^0.4.24;
@@ -44,7 +44,7 @@ contract ERC20NameTestContract{
 
 Then I have deployed my own test token contract, TestToken.sol
 
-# Test Result: Successful
-### Conclusion: The name of the interface contract does not matter, it only matters when making an instance. Only thing that matters when using other contract's function using the interface is the interface function name and structure.
+### Test Result: Successful
+##### Conclusion: The name of the interface contract does not matter, it only matters when making an instance. Only thing that matters when using other contract's function using the interface is the interface function name and structure.
 
 
