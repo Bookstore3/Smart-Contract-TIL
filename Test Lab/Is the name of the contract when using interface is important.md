@@ -2,7 +2,7 @@
 
 I've always wondered if I should match the interface contract's name exactly same as the contract that I want to use.
 
-For example, if I want to call balanceOf function from ERC20 token contract, do I need to match the interface name with it?
+For example, if I want to call balanceOf function from other contract that uses ERC20 token interface, do I need to match the interface name with it?
 
 Testing
 
