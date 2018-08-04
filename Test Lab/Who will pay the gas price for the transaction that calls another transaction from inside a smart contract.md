@@ -43,5 +43,8 @@ Since we have not sent any Ether to this contract, and even if we did it would g
 
 ### Test Result: The account that sends the Ether through this contract pays the fee for the whole transaction, not the contract.
 
-##### Conclusion: When we make a contract that sends the Ether to others, it will not be recorded as normal transaction. It will use something called 'internal transaction' which is used when someone makes the transaction to the contract and that transaction provokes another transaction inside the contract.The internal transaction will be not recorded as individually, rather it will be recorded as a data value. Basically it's similar with Call. Also, gas price for account A to send account B is about 21000 in Ropsten testnet, while gas price for account A to send to B through C is about 31000. So it is little bit more expensive. 
+##### Conclusion: 
+When we make a contract that sends the Ether to others, it will not be recorded as normal transaction. 
+It will use something called 'internal transaction' which is used when someone makes the transaction to the contract and that transaction provokes another transaction inside the contract.
+The internal transaction will be not recorded as individually, rather it will be recorded as a data value. Basically it's similar with Call. Also, gas price for account A to send account B is about 21000 in Ropsten testnet, while gas price for account A to send to B through C is about 31000. So it is little bit more expensive. 
 
