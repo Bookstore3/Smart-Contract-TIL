@@ -16,7 +16,7 @@ Like the meaning of the word 'origin', the subject that casued this chain of the
 tx.origin is not a recommanded way to track the original msg.sender due to some dangerous situation it could cause when used on smart contract.
 Below contract is the example of abusing the tx.origin.
 
-~~~
+~~~Solidity
 pragma Solidity ^0.4.18;
 
 contract OriginTestContract{ // Has a mapping structure that manages the token amount
