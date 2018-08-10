@@ -246,10 +246,10 @@ The Chrome does not allow this kind of approach and only accepts IP address form
 If you use other browser such as Internet Explorer or Microsoft Edge, you won't get the error as the Chrome. This is because these browser accepts
 the folder path as an address.
 
-So in order to run your html on Chrome, you need to use coming called **Chrome Web Server Service.**
+So in order to run your html on Chrome, you need to use coming called **Web Server for Chrome.**
 You can download this as Chrome expansion application.
 
-After downloading the Chrome Web Server Service, run the application and choose the folder path to your project folder, coursetro-eth, and choose the port something like 8887. Also avoid using 8545 cause testRPC is using that port number.
+After downloading the Web Server for Chrome, run the application and choose the folder path to your project folder, coursetro-eth, and choose the port something like 8887. Also avoid using 8545 cause testRPC is using that port number.
 
 Then, click on local address which will be 127.0.0.1:8887.
 After that, open up the console by pressing F12 or Ctrl + Shift + c.
